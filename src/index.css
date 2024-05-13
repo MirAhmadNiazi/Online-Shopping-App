@@ -1,0 +1,394 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family:sans-serif;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 10rem;
+}
+
+
+li {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 3rem;
+}
+
+
+
+.nav {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav:hover {
+    transform: scale(1.3);
+}
+
+.nav:focus {
+    transform: scale(1.4);
+    color: blue;
+
+}
+
+.nav-brand {
+    text-decoration: none;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px black;
+}
+
+.nav-brand:focus {
+
+    transform: scale(1.3);
+}
+
+.brands {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    margin: 1rem auto 1.5rem auto;
+    width: 100%;
+    height: 4rem;
+    padding: 0;
+}
+
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(241, 239, 239);
+    box-shadow: 2px 2px 8px rgb(136, 136, 136);
+    z-index: 1;
+    gap: 1rem;
+    
+
+}
+
+.dropdwon-container {
+
+    background-color: rgb(210, 209, 209);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 1.5rem;
+    width: 10rem;
+    box-shadow: 2px 2px 3px black;
+    padding: 5px;
+    position: relative;
+    top: 5rem;
+}
+
+
+
+.search-input {
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+}
+
+
+.nav-container {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(241, 239, 239);
+    padding-top: 1rem;
+    box-shadow: -2px -2px 8px rgb(136, 136, 136);
+
+}
+
+
+.loginWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+    margin-top: 2rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.added {
+    color: rgb(47, 57, 255);
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+
+
+
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 30rem;
+    min-height: 30rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(54, 54, 54);
+    position: relative;
+    
+}
+
+
+.basket {
+
+    margin-bottom: 20px;
+}
+
+.nav-basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.remove {
+    color: red;
+}
+
+.img-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    cursor: pointer;
+
+}
+
+.size-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.span-size {
+    border: solid black 1px;
+    padding: 4px;
+}
+
+.button-size:active {
+    color: blue;
+    transform: scale(1.5);
+}
+
+.image-slider-right {
+    position: absolute;
+    left: 27.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(66, 129, 254);
+    color: white;
+}
+
+.image-slider-left {
+    position: absolute;
+    right: 27.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(66, 129, 254);
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 2rem;
+    left: 39%;
+    font-style: italic;
+    color: rgba(9, 9, 9, 0.491);
+}
+
+.dropdwon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    gap: 1rem;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.dropdwon li {
+    width: 70%;
+
+}
+
+.dropdwon li:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 3px black;
+    cursor: pointer;
+}
+
+
+
+.search button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.search button:active{
+    box-shadow: 2px 2px 3px inset black;
+}
+.search button {
+    box-shadow: 2px 2px 3px black;
+    border-radius: 3px;
+}
+
+
+
+.size{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 90%;
+   
+}
+
+.size ul {
+    margin: 0rem 0rem 2rem 0rem;
+    
+}
+
+.size-box{
+    
+    cursor: pointer;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200); 
+}
+
+.selected-size{
+    
+    background-color: gray;
+    color: white;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.selected-size-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.checkout-button{
+    background-color: lightgreen;
+    border-radius: 15px;
+    height: 1.5rem;
+    cursor: pointer;
+}
